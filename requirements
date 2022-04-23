@@ -1,0 +1,8 @@
+hydralit
+altair
+pandas
+google-api-python-client
+google-auth
+google-auth-httplib2
+protobuf
+click==8
