@@ -14,7 +14,7 @@ def get_chart(data):
         .mark_line()
         .encode(
             x="Year",
-            y="Emission",
+            y=alt.Y("Emission",axis=alt.Axis(format='.1e')),
             color=alt.Color("Country",legend=alt.Legend(orient='bottom'),scale=alt.Scale(scheme='dark2')),
             strokeDash="Country",
         )
