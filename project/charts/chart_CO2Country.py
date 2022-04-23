@@ -15,7 +15,7 @@ def get_chart(data):
         .encode(
             x="Year",
             y="Emission",
-            color=alt.Color("Country",legend=alt.Legend(orient='bottom')),
+            color=alt.Color("Country",legend=alt.Legend(orient='bottom'),scale=alt.Scale(scheme='dark2')),
             strokeDash="Country",
         )
     )

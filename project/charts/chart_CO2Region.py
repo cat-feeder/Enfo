@@ -13,8 +13,9 @@ def get_chart(data):
         alt.Chart(data, title="CO2 Emissions By Region")
         .mark_line()
         .encode(
-            x="Year",
-            y="Emission",
+            #x=alt.X("Year",axis=alt.Axis(format='{}')),
+            x = "Year",
+            y=alt.Y("Emission",axis=alt.Axis(format='.1e')),
             color=alt.Color("Region",legend=alt.Legend(orient='bottom'),scale=alt.Scale(scheme='dark2')),
             strokeDash="Region",
         )

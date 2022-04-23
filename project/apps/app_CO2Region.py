@@ -51,7 +51,7 @@ class MyCO2RegionApp(HydraHeadApp):
 
 
         # Data visualisation part
-        title = '<p style="font-family:sans-serif; font-size: 55px;color:#008080;">ENFO🌲🌳🌴🌵</p>'
+        title = '<p style="font-family:sans-serif; font-size: 55px;color:#008080;">ENFO🌲🌵</p>'
         st.markdown(title, unsafe_allow_html=True)
         subtitle = '<p style="font-family:sans-serif; font-size: 20px;color:#008080;">CO2 Emissions(Region)</p>'
         st.markdown(subtitle, unsafe_allow_html=True)
