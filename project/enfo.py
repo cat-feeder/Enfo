@@ -10,7 +10,7 @@ from apps.app_AgriCountry import MyAgriCountryApp
 from apps.app_ForestRegion import MyForestRegionApp
 from apps.app_Forestcountry import MyForestCountryApp
 from apps.app_Pole import MyPoleApp
-from apps.app_Temp import MyTempApp
+#from apps.app_Temp import MyTempApp
 
 
 
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     app.add_app("Forest(Region)", icon="🌲", app = MyForestRegionApp())
     app.add_app("Forest(Country)", icon="🌲", app = MyForestCountryApp())
     app.add_app("Pole Data", icon="💧", app = MyPoleApp())
-    app.add_app("Temperature Data", icon="💧", app = MyTempApp())
+    #app.add_app("Temperature Data", icon="💧", app = MyTempApp())
 
     #run the whole lot
     app.run()
