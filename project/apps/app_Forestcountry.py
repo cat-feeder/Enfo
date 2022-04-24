@@ -7,7 +7,7 @@ import pandas as pd
 from datetime import datetime
 import pymysql
 
-from charts import chart_ForestCountry
+from charts import chart_Forestcountry
 
 #add an import to Hydralit
 from hydralit import HydraHeadApp
