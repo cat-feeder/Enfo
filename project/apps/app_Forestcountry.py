@@ -58,7 +58,7 @@ class MyForestCountryApp(HydraHeadApp):
         space(1)
 
         source = source[source.Country.isin(countries)]
-        chart = chart_ForestCountry.get_chart(source)
+        chart = chart_Forestcountry.get_chart(source)
         st.altair_chart(chart, use_container_width=True)
 
 
